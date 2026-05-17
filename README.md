@@ -391,7 +391,7 @@ cd post-process
 uv run python replace_pred.py
 ```
 
-**Final Output:** `prediction_d_replaced.csv` — this is the final submission file.
+**Final Output:** `prediction_dinovision.csv` — this is the final submission file.
 
 ---
 
@@ -468,7 +468,7 @@ uv run python replace_pred.py
 cd ..
 ```
 
-The final submission file is `post-process/prediction_d_replaced.csv`.
+The final submission file is `post-process/prediction_dinovision.csv`.
 
 ---
 
