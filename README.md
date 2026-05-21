@@ -347,8 +347,8 @@ Fuse predictions from all 4 models using rank-based averaging.
 Place the following files in the `post-process/` directory:
 - `prediction-dinov3l-v1.csv` (from Stage 3.4, Model A)
 - `prediction_dinoh-v2.csv` (from Stage 3.4, Model B)
-- `predictions div2l-v3.csv` (from Stage 3.4, Model C)
-- `predictions div2l-v4.csv` (from Stage 4.2, Model D)
+- `predictions_div2l-v3.csv` (from Stage 3.4, Model C)
+- `predictions_div2l-v4.csv` (from Stage 4.2, Model D)
 
 > **Note:** The fusion script (`fusion_csv.py`) reads these exact filenames. Ensure file names match.
 
