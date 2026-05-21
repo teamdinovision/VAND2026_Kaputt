@@ -454,7 +454,7 @@ cd ..
 # 6. Collect prediction CSVs into post-process/
 cp "dinov3 l-v1/dinov3-l/pred_cls_anomaly_alpha0.05.csv" post-process/prediction-dinov3l-v1.csv
 cp "dinov3-h-v2/dinov3-h/pred_cls_anomaly_alpha0.05.csv" post-process/prediction_dinoh-v2.csv
-cp "dinov2-l-v3/dinov2-l-w/pred_cls_anomaly_alpha0.05.csv" post-process/predictions_div2l-v4.csv
+cp "dinov2-l-v3/dinov2-l-w/pred_cls_anomaly_alpha0.05.csv" post-process/predictions_div2l-v3.csv
 cp "dinov2-l-v4/dinov2-l-m/pred_cls_anomaly_alpha0.05.csv" post-process/predictions_dinov2l-v4.csv
 
 # 7. Ensemble fusion
