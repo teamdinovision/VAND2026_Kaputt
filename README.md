@@ -249,7 +249,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 uv run python evaluate_with_ref.py \
     --output-dir dinov3-h
 ```
 
-**Result:** `dinov3-h/pred_cls_anomaly_alpha0.05.csv` → rename to `prediction_dinovh-v2.csv`
+**Result:** `dinov3-h/pred_cls_anomaly_alpha0.05.csv` → rename to `prediction_dinoh-v2.csv`
 
 **Model C (DINOv2-L v3):**
 
@@ -268,7 +268,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 uv run python evaluate_with_ref.py \
     --output-dir dinov2-l-w
 ```
 
-**Result:** `dinov2-l-w/pred_cls_anomaly_alpha0.05.csv` → rename to `predictions_dinov2l-v3.csv`
+**Result:** `dinov2-l-w/pred_cls_anomaly_alpha0.05.csv` → rename to `predictions_div2l-v3.csv`
 
 ---
 
@@ -334,7 +334,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 uv run python evaluate_with_ref.py \
     --output-dir dinov2-l-m
 ```
 
-**Result:** `dinov2-l-m/pred_cls_anomaly_alpha0.05.csv` → rename to `predictions_dinov2l-v4.csv`
+**Result:** `dinov2-l-m/pred_cls_anomaly_alpha0.05.csv` → rename to `predictions_div2l-v4.csv`
 
 ---
 
@@ -455,7 +455,7 @@ cd ..
 cp "dinov3 l-v1/dinov3-l/pred_cls_anomaly_alpha0.05.csv" post-process/prediction-dinov3l-v1.csv
 cp "dinov3-h-v2/dinov3-h/pred_cls_anomaly_alpha0.05.csv" post-process/prediction_dinoh-v2.csv
 cp "dinov2-l-v3/dinov2-l-w/pred_cls_anomaly_alpha0.05.csv" post-process/predictions_div2l-v3.csv
-cp "dinov2-l-v4/dinov2-l-m/pred_cls_anomaly_alpha0.05.csv" post-process/predictions_dinov2l-v4.csv
+cp "dinov2-l-v4/dinov2-l-m/pred_cls_anomaly_alpha0.05.csv" post-process/predictions_div2l-v4.csv
 
 # 7. Ensemble fusion
 cd post-process
