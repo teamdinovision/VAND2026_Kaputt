@@ -133,7 +133,9 @@ Organize your datasets as follows. If the data are in another path, modify the p
 │   └── reference_crop/crop/   # Reference images
 └── kaputt2/                   # Kaputt2 dataset
     ├── data/
-    │   └── test/query-data/crop/
+    │   └── test/
+    │       ├── query-data/crop/
+    │       └── reference-data/crop/
     └── *.parquet
 ```
 
@@ -162,7 +164,7 @@ cd gen_pseudo-labeling
 uv run python generate_pseudo_labels.py \
     --config configs/large_728_three_freeze.py \
     --checkpoint epoch_12(gen_pseudolabel).pth \
-    --data-root /data/public/dataset/reference_crop/crop/ \
+    --data-root /data/public/dataset/kaputt/reference_crop/crop/ \
     --parquet-root /data/public/dataset/kaputt \
     --output pseudo_labels_ref.csv \
     --tta-scales 768 1024 1280 1408
